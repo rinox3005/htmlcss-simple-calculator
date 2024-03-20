@@ -9,9 +9,15 @@
     src: url(./fonts/eurostile.TTF);
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
 .flex {
     display: flex;
-    margin-top: 20%;
 }
 
 .align-center {
@@ -133,6 +139,6 @@
 }
 
 .btn-blue {
-    background-color: rgb(110, 152, 168);
+    background-color: rgb(116, 162, 180);
     color: white;
 }
