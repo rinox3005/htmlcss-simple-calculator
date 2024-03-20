@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     max-height: 1200px;
     max-width: 1200px;
@@ -23,8 +25,8 @@ body {
 
 .container {
     display: flex;
-    height: 500px;
-    width: 350px;
+    height: 550px;
+    width: 360px;
     background-color: red;
     border: 1 solid black;
     flex-direction: column;
@@ -57,4 +59,43 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     justify-content: space-between;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: pink;
+    width: 78%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+
+}
+
+.simbols {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    gap: 15px;
+    padding-top: 22px;
+    padding-right: 25px;
+}
+
+.square {
+    width: 68px;
+    height: 68px;
+
+}
+
+.rectangle {
+    width: 147px;
+    height: 68px;
+}
+
+.little-square {
+    width: 64px;
+    height: 50px;
 }
